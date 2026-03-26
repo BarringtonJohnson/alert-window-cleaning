@@ -23,23 +23,29 @@ window.addEventListener('scroll', () => {
   }
 });
 
-// Quote form submission
+// Quote form submission via Formspree
 const quoteForm = document.getElementById('quoteForm');
 const formSuccess = document.getElementById('formSuccess');
 
 quoteForm.addEventListener('submit', (e) => {
   e.preventDefault();
 
-  // Collect form data
   const formData = new FormData(quoteForm);
-  const data = Object.fromEntries(formData);
 
-  // For now, log to console. Replace with your email service or backend.
-  console.log('Quote request:', data);
-
-  // Show success message
-  quoteForm.style.display = 'none';
-  formSuccess.style.display = 'block';
+  fetch(quoteForm.action, {
+    method: 'POST',
+    body: formData,
+    headers: { 'Accept': 'application/json' }
+  }).then(response => {
+    if (response.ok) {
+      quoteForm.style.display = 'none';
+      formSuccess.style.display = 'block';
+    } else {
+      alert('Oops! Something went wrong. Please try again.');
+    }
+  }).catch(() => {
+    alert('Oops! Something went wrong. Please try again.');
+  });
 });
 
 // Smooth reveal on scroll
