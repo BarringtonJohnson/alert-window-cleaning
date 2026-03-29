@@ -199,9 +199,9 @@ a {
 }
 
 .hero-subtitle {
-  font-size: 3.5rem;
-  font-weight: 400;
-  letter-spacing: 0.3em;
+  font-size: 10rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
   text-transform: lowercase;
   margin-bottom: 40px;
   color: var(--gold);
