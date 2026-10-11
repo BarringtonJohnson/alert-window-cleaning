@@ -3,9 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alert Window Cleaning | Professional Window Cleaning Services</title>
-  <meta name="description" content="Alert Window Cleaning provides professional residential and commercial window cleaning services. Get a free quote today!">
-  <link rel="stylesheet" href="styles.css?v=2">
+  <title>Alert Window Cleaning | Professional Window Cleaning in Bend, OR</title>
+  <meta name="description" content="Alert Window Cleaning provides professional residential and commercial window cleaning services in Bend, Redmond, Sisters, and Sunriver, Oregon. Fully insured. Get a free quote today!">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=16">
 </head>
 <body>
 
@@ -13,10 +16,13 @@
   <nav class="navbar">
     <div class="container nav-container">
       <a href="#home" class="logo">Alert<span>Window Cleaning</span></a>
-      <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span class="hamburger"></span>
+      </button>
       <ul class="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
         <li><a href="#gallery">Gallery</a></li>
         <li><a href="#reviews">Reviews</a></li>
         <li><a href="#quote" class="btn btn-nav">Get a Quote</a></li>
@@ -26,14 +32,30 @@
 
   <!-- Hero Section -->
   <section id="home" class="hero">
+    <div class="hero-bg"></div>
     <div class="hero-overlay"></div>
     <div class="container hero-content">
+      <p class="hero-tagline">Professional Window Cleaning</p>
       <h1>ALERT</h1>
       <p class="hero-subtitle">Window Cleaning LLC</p>
-      <p>Professional window cleaning for homes and businesses. Reliable, affordable, and streak-free results guaranteed.</p>
+      <p class="hero-desc">Streak-free, crystal-clear results for homes and businesses across Central Oregon.</p>
       <div class="hero-buttons">
         <a href="#quote" class="btn btn-primary">Get a Free Quote</a>
-        <a href="#services" class="btn btn-outline">Our Services</a>
+        <a href="tel:3234301576" class="btn btn-outline">Call (323) 430-1576</a>
+      </div>
+      <div class="hero-badges">
+        <div class="hero-badge">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Fully Insured
+        </div>
+        <div class="hero-badge">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          Satisfaction Guaranteed
+        </div>
+        <div class="hero-badge">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Central Oregon
+        </div>
       </div>
     </div>
   </section>
@@ -41,38 +63,128 @@
   <!-- Services Section -->
   <section id="services" class="services">
     <div class="container">
+      <p class="section-label">What We Do</p>
       <h2 class="section-title">Our Services</h2>
-      <p class="section-subtitle">We offer a full range of window cleaning services to keep your property looking its best.</p>
+      <p class="section-subtitle">A full range of cleaning services to keep your property looking its best.</p>
       <div class="services-grid">
         <div class="service-card">
-          <div class="service-icon">&#127968;</div>
+          <div class="service-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
           <h3>Residential Cleaning</h3>
           <p>Interior and exterior window cleaning for homes of all sizes. We leave your windows sparkling clean.</p>
         </div>
         <div class="service-card">
-          <div class="service-icon">&#127970;</div>
+          <div class="service-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12" y2="18"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="16" y2="10"/><line x1="8" y1="14" x2="16" y2="14"/></svg>
+          </div>
           <h3>Commercial Cleaning</h3>
           <p>Professional window cleaning for offices, storefronts, and commercial buildings. Flexible scheduling available.</p>
         </div>
         <div class="service-card">
-          <div class="service-icon">&#128167;</div>
+          <div class="service-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+          </div>
           <h3>Pressure Washing</h3>
           <p>Blast away dirt and grime from driveways, sidewalks, decks, and building exteriors.</p>
         </div>
         <div class="service-card">
-          <div class="service-icon">&#9728;&#65039;</div>
+          <div class="service-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/></svg>
+          </div>
           <h3>Screen Cleaning</h3>
           <p>We remove, clean, and reinstall your window screens so every part of your window shines.</p>
         </div>
         <div class="service-card">
-          <div class="service-icon">&#129527;</div>
+          <div class="service-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v4H4z"/><path d="M4 12h16v4H4z"/><path d="M4 20h16"/><line x1="8" y1="8" x2="8" y2="12"/><line x1="16" y1="8" x2="16" y2="12"/></svg>
+          </div>
           <h3>Gutter Cleaning</h3>
           <p>Keep your gutters clear and flowing. Prevent water damage with regular gutter maintenance.</p>
         </div>
         <div class="service-card">
-          <div class="service-icon">&#10024;</div>
+          <div class="service-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
           <h3>Post-Construction</h3>
-          <p>Specialised cleaning to remove paint, stickers, and construction debris from new or renovated windows.</p>
+          <p>Specialized cleaning to remove paint, stickers, and construction debris from new or renovated windows.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <p class="section-label">Why Choose Us</p>
+      <h2 class="section-title">The Alert Difference</h2>
+      <p class="section-subtitle">We take pride in delivering exceptional results every time.</p>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Fully Insured</h3>
+          <p>Your property is protected. We carry full insurance so you can have complete peace of mind.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3>Reliable & On Time</h3>
+          <p>We show up when we say we will. Your schedule matters, and we respect your time.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+          <h3>Satisfaction Guaranteed</h3>
+          <p>Not happy with our work? We'll come back and make it right, free of charge.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Locally Owned</h3>
+          <p>We're your neighbors. A local Central Oregon business that cares about this community.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Area Section -->
+  <section class="service-area">
+    <div class="container">
+      <div class="service-area-content">
+        <div class="service-area-text">
+          <p class="section-label">Service Area</p>
+          <h2 class="section-title" style="text-align:left;">Proudly Serving Central Oregon</h2>
+          <p>We provide professional window cleaning services throughout Central Oregon, including:</p>
+          <ul class="area-list">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Bend
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Redmond
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Sisters
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Sunriver
+            </li>
+          </ul>
+          <a href="#quote" class="btn btn-primary" style="margin-top:20px;">Get a Free Quote</a>
+        </div>
+        <div class="service-area-visual">
+          <div class="area-badge">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Central Oregon</span>
+          </div>
         </div>
       </div>
     </div>
@@ -81,14 +193,18 @@
   <!-- Gallery Section -->
   <section id="gallery" class="gallery">
     <div class="container">
-      <h2 class="section-title">Our Work</h2>
-      <p class="section-subtitle">See the difference professional window cleaning makes.</p>
-      <div class="gallery-grid">
-        <div class="gallery-item">
-          <img src="gallery1.jpg" alt="Professional window cleaning result" style="width:100%; height:100%; object-fit:cover;">
-        </div>
-        <div class="gallery-item">
-          <img src="gallery2.jpg" alt="Professional window cleaning result" style="width:100%; height:100%; object-fit:cover;">
+      <p class="section-label">Our Work</p>
+      <h2 class="section-title">See the Difference</h2>
+      <p class="section-subtitle">Professional window cleaning makes a world of difference.</p>
+      <div class="slider-wrapper">
+        <div class="slider-track" id="sliderTrack">
+          <img src="slide1.jpg" alt="Window cleaning on ladder">
+          <img src="slide2.jpg" alt="Skylight cleaning">
+          <img src="slide3.jpg" alt="Row of clean windows">
+          <img src="slide4.jpg" alt="Sparkling clean windows">
+          <img src="slide5.jpg" alt="Large window cleaning">
+          <img src="slide6.jpg" alt="Solar panel cleaning">
+          <img src="slide7.jpg" alt="Solar panel cleaning">
         </div>
       </div>
     </div>
@@ -97,27 +213,121 @@
   <!-- Reviews Section -->
   <section id="reviews" class="reviews">
     <div class="container">
+      <p class="section-label">Testimonials</p>
       <h2 class="section-title">What Our Customers Say</h2>
       <p class="section-subtitle">Don't just take our word for it.</p>
-      <div class="reviews-grid">
-        <div class="review-card">
-          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p class="review-text">"Alert Window Cleaning did an amazing job on our home. The windows have never looked this good. Highly recommend!"</p>
-          <p class="review-author">- Sarah M.</p>
-        </div>
-        <div class="review-card">
-          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p class="review-text">"Professional, on time, and very thorough. They cleaned every window inside and out. Will definitely use again."</p>
-          <p class="review-author">- James T.</p>
-        </div>
-        <div class="review-card">
-          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p class="review-text">"We use Alert for our office building every month. Consistent quality and great communication. A+ service!"</p>
-          <p class="review-author">- Linda R.</p>
+      <div class="google-badge">
+        <svg width="20" height="20" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.27-4.74 3.27-8.1z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+        <span>Google Reviews</span>
+        <span class="google-rating">5.0</span>
+        <div class="stars">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
         </div>
       </div>
-      <div style="text-align: center; margin-top: 40px;">
-        <a href="https://g.page/r/CTA0pxNW-rScEAI/review" target="_blank" class="btn btn-primary">Leave Us a Review</a>
+      <div class="reviews-carousel">
+        <button class="carousel-arrow carousel-prev" id="reviewPrev" aria-label="Previous reviews">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <div class="reviews-viewport">
+          <div class="reviews-track" id="reviewsTrack">
+            <div class="review-card">
+              <div class="review-header"><div><p class="review-author">Emily R.</p><p class="review-date">Google Review</p></div></div>
+              <div class="stars"><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+              <p class="review-text">"Barrington did an awesome job on our windows - everything is sparkling! Super easy to work with, hard-working, kind, and got the job done exactly as planned for a very reasonable price. Would recommend without hesitation!"</p>
+            </div>
+            <div class="review-card">
+              <div class="review-header"><div><p class="review-author">Amy A.</p><p class="review-date">Google Review</p></div></div>
+              <div class="stars"><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+              <p class="review-text">"Absolutely the best window cleaning service I have used!!!! My windows r spotless. Thought it would be a difficult job bc lots of windows on a 3 story home. Barrington was professional and very efficient. Will definitely be a continuing client w him"</p>
+            </div>
+            <div class="review-card">
+              <div class="review-header"><div><p class="review-author">Mary Y.</p><p class="review-date">Google Review</p></div></div>
+          <div class="stars">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="review-text">"Fantastic all the way around. I would highly recommend Alert window cleaning to anyone needing windows cleaned. They were prompt with returning my message, followed up and got me scheduled quickly. Go with Alert window cleaning. You won't be disappointed."</p>
+            </div>
+            <div class="review-card">
+              <div class="review-header"><div><p class="review-author">Laury B.</p><p class="review-date">Google Review</p></div></div>
+              <div class="stars"><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+              <p class="review-text">"Had my outside windows cleaned on 2-story house. Work was completed in a professional manner and windows look great. All done at a fair price. I appreciated the extras - like cleaning the garage windows inside and out. Give them a try, you'll be glad you did."</p>
+            </div>
+            <div class="review-card">
+              <div class="review-header"><div><p class="review-author">Deri F.</p><p class="review-date">Google Review</p></div></div>
+              <div class="stars"><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+              <p class="review-text">"Very prompt!! Very professional!! I didnt even know my windows could LOOK SOOOO GOOD !! Thank u!!"</p>
+            </div>
+            <div class="review-card">
+              <div class="review-header"><div><p class="review-author">Aaron S.</p><p class="review-date">Google Review</p></div></div>
+              <div class="stars"><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+              <p class="review-text">"Had Alert Window Cleaning come out to clean all our windows, inside and out, and honestly we're blown away. He was very thorough. He clearly cared about doing it right. Our windows haven't looked this good since we moved in. Highly recommend Alert Window Cleaning."</p>
+            </div>
+            <div class="review-card">
+              <div class="review-header"><div><p class="review-author">Cate C.</p><p class="review-date">Google Review</p></div></div>
+              <div class="stars"><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+              <p class="review-text">"I am delighted with the excellent work and great results that Barrington provided in cleaning all my windows inside and out! They are crystal clear now! I will definitely continue using ALERT Window Cleaning. Thank you again for a job well done!"</p>
+            </div>
+            <div class="review-card">
+              <div class="review-header"><div><p class="review-author">Lander B.</p><p class="review-date">Google Review</p></div></div>
+              <div class="stars"><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+              <p class="review-text">"Our windows had not been cleaned in some time (several years). Barrington did a great job cleaning them, including several that are only accessible on the roof. Highly recommend."</p>
+            </div>
+            <div class="review-card">
+              <div class="review-header"><div><p class="review-author">Bob & Ranotta W.</p><p class="review-date">Google Review</p></div></div>
+              <div class="stars"><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+              <p class="review-text">"Quality work windows and gutters!! Barrington even took pics of gutter work to show differences. I'll hire again for sure."</p>
+            </div>
+            <div class="review-card">
+              <div class="review-header"><div><p class="review-author">Rodd M.</p><p class="review-date">Google Review</p></div></div>
+              <div class="stars"><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+              <p class="review-text">"Arrived on time and started promptly. Windows look great and he took care to ensure that our outdoor furnishings and plants were protected while he worked. Would highly recommend!"</p>
+            </div>
+            <div class="review-card">
+              <div class="review-header"><div><p class="review-author">Lynnette Y.</p><p class="review-date">Google Review</p></div></div>
+              <div class="stars"><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+              <p class="review-text">"All my windows were crystal clear! After the job was done Barrington walked with me around the house to make sure it was to my liking."</p>
+            </div>
+            <div class="review-card">
+              <div class="review-header"><div><p class="review-author">Richard F.</p><p class="review-date">Google Review</p></div></div>
+              <div class="stars"><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+              <p class="review-text">"Very professional service. I'm extremely pleased with Alert Window Cleaning"</p>
+            </div>
+            <div class="review-card">
+              <div class="review-header"><div><p class="review-author">Marc B.</p><p class="review-date">Google Review</p></div></div>
+              <div class="stars"><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+              <p class="review-text">"Barrington is excellent. He's very thorough in his work. he's very cost-effective. He accepts custom requests. I would definitely use him again for my windows."</p>
+            </div>
+            <div class="review-card">
+              <div class="review-header"><div><p class="review-author">Michael Y.</p><p class="review-date">Google Review</p></div></div>
+              <div class="stars"><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+              <p class="review-text">"Barrington was very professional, prompt, fairly priced, and provided excellent service. We will definitely have him clean our windows again!"</p>
+            </div>
+            <div class="review-card">
+              <div class="review-header"><div><p class="review-author">John S.</p><p class="review-date">Google Review</p></div></div>
+              <div class="stars"><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+              <p class="review-text">"I would highly recommend Alert Window Cleaning, did a great job at a great price."</p>
+            </div>
+            <div class="review-card">
+              <div class="review-header"><div><p class="review-author">JP P.</p><p class="review-date">Google Review</p></div></div>
+              <div class="stars"><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBC05"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+              <p class="review-text">"Alert Window Cleaning did a fantastic job on my home. I get my windows cleaned every year and he is by far the best company I've ever worked with. He cleaned my windows inside and out, and was very thorough and professional."</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-arrow carousel-next" id="reviewNext" aria-label="Next reviews">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+      </div>
+      <div style="text-align: center; margin-top: 50px;">
+        <a href="https://g.page/r/CTA0pxNW-rScEAI/review" target="_blank" class="btn btn-outline">Leave Us a Review on Google</a>
       </div>
     </div>
   </section>
@@ -125,6 +335,7 @@
   <!-- Quote Form Section -->
   <section id="quote" class="quote-section">
     <div class="container">
+      <p class="section-label">Contact</p>
       <h2 class="section-title">Get a Free Quote</h2>
       <p class="section-subtitle">Fill out the form below and we'll get back to you within 24 hours.</p>
       <form class="quote-form" id="quoteForm" action="https://formspree.io/f/xzdkedzy" method="POST">
@@ -141,7 +352,7 @@
         <div class="form-row">
           <div class="form-group">
             <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+            <input type="tel" id="phone" name="phone" placeholder="(541) 123-4567">
           </div>
           <div class="form-group">
             <label for="service">Service Needed</label>
@@ -164,6 +375,7 @@
         <button type="submit" class="btn btn-primary btn-full">Send Quote Request</button>
       </form>
       <div id="formSuccess" class="form-success" style="display:none;">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
         <h3>Thank you!</h3>
         <p>We've received your quote request and will get back to you within 24 hours.</p>
       </div>
@@ -175,21 +387,28 @@
     <div class="container footer-content">
       <div class="footer-info">
         <h3 class="logo">Alert<span>Window Cleaning</span></h3>
-        <p>Professional window cleaning services you can trust.</p>
+        <p>Professional window cleaning services you can trust. Fully insured and serving Central Oregon.</p>
       </div>
       <div class="footer-contact">
         <h4>Contact Us</h4>
-        <p>Phone: (323) 430-1576</p>
-        <p>Email: thechristianbarrington@gmail.com</p>
+        <p><a href="tel:3234301576">Phone: (323) 430-1576</a></p>
+        <p><a href="mailto:thechristianbarrington@gmail.com">Email: thechristianbarrington@gmail.com</a></p>
+      </div>
+      <div class="footer-areas">
+        <h4>Service Areas</h4>
+        <p>Bend, OR</p>
+        <p>Redmond, OR</p>
+        <p>Sisters, OR</p>
+        <p>Sunriver, OR</p>
       </div>
     </div>
     <div class="footer-bottom">
       <div class="container">
-        <p>&copy; 2026 Alert Window Cleaning. All rights reserved.</p>
+        <p>&copy; 2026 Alert Window Cleaning LLC. All rights reserved.</p>
       </div>
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=7"></script>
 </body>
 </html>
